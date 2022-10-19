@@ -10,12 +10,14 @@ int main()
 			lower_alphabet++;
 	}
 
-	char upper_alphabet = 'A';
+	return (0);
 
-	while (upper_alphabet<='Z')
+	char new_alphabet = 'A';
+
+	while (new_alphabet<='Z')
 	{
-		putchar(upper_alphabet);
-			upper_alphabet++;
+		putchar(new_alphabet);
+			new_alphabet++;
 	}
 
 	return (0);

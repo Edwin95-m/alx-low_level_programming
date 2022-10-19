@@ -20,7 +20,7 @@ int main(void) /* betty style doc for function main goes there */
 	{
 	printf("is negative \n");
 	}
-	else if (n = 0)
+	else if ((n = 0))
 	{
 	printf("is zero \n");
 	}

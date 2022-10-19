@@ -3,7 +3,7 @@
 #include <time.h>
 
 /* betty style doc for function main goes there */
-int main(void)
+int main(void) /* betty style doc for function main goes there */ 
 
 {
 	int n;
@@ -20,11 +20,11 @@ int main(void)
 	{
 	printf("is negative \n");
 	}
-	else
+	else if (n = 0)
 	{
 	printf("is zero \n");
 	}
 
-	return(0);
+	return (0);
 
 }

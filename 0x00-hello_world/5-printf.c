@@ -1,6 +1,10 @@
 #include <stdio.h>
-/*main function*/
-int main(void)/*main function to return a string*/
+/**
+ * main - print a string
+ *Description: use printf
+ * Return: 0
+  */
+int main(void)
 {
 	printf("with proper grammar, but the outcome is a piece of art,\n");
 

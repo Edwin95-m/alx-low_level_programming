@@ -2,9 +2,12 @@
 #include <stdlib.h>
 #include <time.h>
 
-/* betty style doc for function main goes there */
-int main(void)/* betty style doc for function main goes there */
-
+/*
+ * main -main block
+ *Description: prints "is positive or negative"
+ *Return: 0
+ */
+int main(void)
 {
 	int n;
 
@@ -14,15 +17,15 @@ int main(void)/* betty style doc for function main goes there */
 
 	if (n > 0)
 	{
-	printf("is positive \n");
+	printf("%d is positive \n", n);
 	}
 	else if (n < 0)
 	{
-	printf("is negative \n");
+	printf("%d is negative \n", n);
 	}
 	else
 	{
-	printf("is zero \n");
+	printf("%d is zero \n", n);
 	}
 
 	return (0);

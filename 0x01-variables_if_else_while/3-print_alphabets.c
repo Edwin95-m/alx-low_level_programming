@@ -9,7 +9,7 @@
  */
 
 int main(void)
-{	
+{
 	char lower_alphabet = 'a';
 
 	while (lower_alphabet <= 'z')

@@ -1,24 +1,31 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-int main()
+/**
+ * main - Entry point
+ * Description: prints alphabets
+ * Return: 0
+ *
+ */
+
+int main(void)
 {	
 	char lower_alphabet = 'a';
 
-	while (lower_alphabet<='z')
+	while (lower_alphabet <= 'z')
 	{
 		putchar(lower_alphabet);
 			lower_alphabet++;
 	}
 
-	return (0);
+	lower_alphabet = 'A';
 
-	char new_alphabet = 'A';
-
-	while (new_alphabet<='Z')
+	while (lower_alphabet <= 'Z')
 	{
-		putchar(new_alphabet);
-			new_alphabet++;
+		putchar(lower_alphabet);
+			lower_alphabet++;
 	}
+	putchar('\n');
 
 	return (0);
 }

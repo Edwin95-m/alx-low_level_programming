@@ -3,7 +3,7 @@
 #include <time.h>
 
 /*
- * main -main block
+ *main - main block
  *Description: prints "is positive or negative"
  *Return: 0
  */
@@ -13,7 +13,6 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	printf("%d \n", n);
 
 	if (n > 0)
 	{

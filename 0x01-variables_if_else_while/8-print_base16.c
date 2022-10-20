@@ -3,16 +3,16 @@
 #include <stdlib.h>
 
 /**
- * main - Entry point
- * Description: print numbers
- * :Return: 0
+ *main - Entry point
+ *Description: print numbers
+ *Return: 0
  *
  */
 
 int main(void)
 {
 	char c;
-	char d ='0';
+	char d = '0';
 
 	while (d <= '9')
 	{

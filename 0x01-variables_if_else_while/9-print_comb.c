@@ -1,35 +1,30 @@
 #include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
 
-
+/**
+ * main - Entry point
+ * Description: print numbers
+ * Return: 0
+ *
+ */
 
 int main(void)
-
 {
+       	int x = 0;
 
-	 int x;
-
-
-
-	for (x = 0; x < 10; x++)
-
-		 {
-
+	while (x < 10)
+	{
 		 putchar(x + '0');
-
 			if (x < 9)
-
 			 {
-
-			 putchar(',');
-
-			 putchar(' ');
+			 putchar(44);
+			 putchar(32);
 			 }
-
+		x++;
 		 }
 
 	 putchar('\n');
-
 	 return (0);
-
 }
 

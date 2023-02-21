@@ -7,8 +7,9 @@
  *
  */
 
-int _islower(int ch)
+int main(void)
 {
+	char ch;
 	if(ch <='a' && ch <='z')
 		return(1);
 	else

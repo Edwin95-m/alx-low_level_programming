@@ -7,8 +7,9 @@
  *
  */
 
-int isalpha(int c)
+int main(void)
 {
+	char c;
        if(c >= 'A'&& c <= 'Z')
 	return(1);
 	else
